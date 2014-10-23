@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+<!--         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+        <title>Farmacia Baíña :: Laboratorio</title>
+        <meta name="description" content="Farmacia Baíña, atención farmacéutica personalizada. Situada en el Concello de Baíña, justo a la entrada de Baiona."/>
+        <meta name="keywords" content="farmacia,baiña,baíña,baiona,baina,laboratorio"/>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/main.css">        
+
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone-retina.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="touch-icon-ipad-retina.png" />
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="js/date.format.js" type="text/javascript"></script>
+        <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-37823640-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+
+        <script>
+            $(document).ready(function(){
+                //Replace telephones
+                if (!jQuery.browser.mobile) {
+                    jQuery('body').on('click', 'a[href^="tel:"]', function() {
+                            jQuery(this).attr('href', 
+                                jQuery(this).attr('href').replace(/^tel:/, 'callto:'));
+                    });
+                }
+            });
+            $(window).load(function() {
+              $('.flexslider').flexslider({
+                animation: "slide"
+              });
+            });
+
+
+        </script>
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">Estás utilizando un navegador <strong>desfasado</strong>. Por favor, <a href="http://browsehappy.com/">actualiza tu navegador</a> o <a href="http://www.google.com/chromeframe/?redirect=true">activa Google Chrome Frame</a> para mejorar tu experiencia web.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">
+                    <a href="index.html"><img src="img/logos/farmaciabaina_logo2.png" width="288" height="75" alt="Logo Farmacia Baíña"/></a>
+                    <img class="home" src="img/other/home.png" alt="Inicio">
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" title="Inicio">Inicio</a></li>
+                        <li><a href="atencion_farmaceutica.html" title="Atención farmacéutica">At. farmacéutica</a></li>
+                        <li><a href="#" title="Laboratorio" class="selected">Laboratorio</a></li>
+                        <li><a href="parafarmacia.html" title="Parafarmacia">Parafarmacia</a></li>
+                        <li><a href="promociones.html" title="Promociones">Promociones</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <div class="flexslider">
+                  <ul class="slides">
+                    <li><img src="img/fotos/laboratorio_carr.jpg" alt="Laboratorio"></li>
+                    <li><img src="img/fotos/laboratorio3_carr.jpg" alt="Laboratorio 2"></li>
+                    <li><img src="img/fotos/laboratorio2_carr.jpg" alt="Laboratorio 3"></li>
+                    <li><img src="img/fotos/laboratorio6_carr.jpg" alt="Laboratorio 4"></li> 
+                  </ul>
+                </div>
+                
+                <br/>
+                <br/>                
+                <article>
+                    <header>
+                        <h1>Formulación magistral</h1>
+                        <p>Una fórmula magistral es un medicamento destinado a un paciente en específico, preparado por el farmacéutico, o bajo su dirección, para cumplimentar expresamente una prescripción médica detallada de las sustancias medicinales que incluye, según las normas técnicas de elaboración (GMP), para ser dispensado en su farmacia o servicio farmacéutico y con la debida información al paciente.</p>
+                        <p>Nuestra farmacia, de acuerdo con la normativa del Servicio Galego de Saúde, cuenta con el Nivel 3 de elaboración de fórmulas magistrales (tópicas, orales y rectales líquidas y orales sólidas).</p>
+                    </header>
+                    <section>
+                        <h2>¿Qué te ofrecemos?<img src="img/other/formulacion.png" alt="Formulación magistral" style="margin-left:1px;"></h2>
+                         <p>En nuestro laboratorio podemos elaborar soluciones orales, jarabes, cápsulas, soluciones tópicas, emulsiones o pomadas que el médico haya prescrito al paciente. </p>
+                         <p>En esta misma página puede encontrar un ejemplo de prospecto de información al paciente para la prescripción de Ácido Salicílico y Urea en Emulsión.</p>
+                    </section>
+                </article>
+
+                <aside>
+                    <img src="img/logos/farmaciabaina_logo3.png" width="134" height="35" alt="Logo Farmacia Baíña" align="left"/>
+                    <p style="text-align: left; font-size: xx-small; margin-left: -20px; width: 110%">INFORMACION PARA EL PACIENTE<br/><br/>ACIDO SALICILICO Y UREA EN EMULSION O/W<br/>FORMA FARMACEUTICA: CREMA<br/>VIA DE ADMINISTRACION: Este medicamento es de uso cutáneo, debe aplicarse en la piel.<br/>COMPOSICION:
+Ácido Salicílico 1%, Urea 3%, Emulsión O/W, c.s.p. 200g<br/>ACTIVIDAD-INDICACIONES: Tratamiento de la piel seca y engrosada que presenta descamación.
+<br/>El ácido salicílico al 1% posee una ligera actividad queratolítica.La urea se suele utilizar por su acción hidratante para aliviar el prurito.
+<br/>CONTRAINDICACIONES: No utilizar en el caso de alergia a alguno de los componentes.<br/>PRECAUCIONES: No aplicar en heridas abiertas ni en mucosas.
+<br/>ADVERTENCIAS: Embarazo y lactancia: No debe utilizarse en las mamas durante la lactancia. Niños: No aplicar en niños recién nacidos.
+<br/>INTERACCIONES: No aplique otro medicamento en la misma zona aunque al ser de aplicación tópica las interacciones con otros medicamentos son poco probables.
+<br/>POSOLOGÍA: Aplique el preparado en la zona afectada según lo indicado por su médico. Cumpla el ciclo completo del tratamiento.
+<br/>NORMAS PARA LA CORRECTA ADMINISTRACIÓN:
+Aplique el producto sobre la piel limpia y seca, friccionando ligeramente. Después de la aplicación lávese las manos, salvo que sea esta la zona a tratar. No aplicar vendaje oclusivo en zonas extensas de la piel.
+<br/>REACCIONES ADVERSAS: Pueden producirse reacciones de hipersensibilidad como erupción cutánea, picor, o enrojecimiento leve y sequedad moderada de la piel.
+<br/>INTOXICACIÓN:
+En caso de ingestión accidental, consulte a su médico o farmacéutico.
+<br/>CONSERVACION:
+Se debe conservar bien cerrado, protegido de la luz y humedad y a temperatura inferior a 25ºC.
+<br/>CADUCIDAD:
+Este preparado no puede administrarse despueés del plazo de validez o fecha de caducidad indicado en el envase.<br/>MANTÉNGASE FUERA DEL ALCANCE DE LOS NIÑOS</p>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <p><small><strong>Farmacia Baíña</strong> | Horario: de Lunes a Sábado, 09:00 - 21:00 | Tlf: <a href="tel:+34986358411">986 35 84 11</a> | E-mail: <a href="mailto:contacto@farmaciabaina.com">contacto@farmaciabaina.com</a> | Dirección: <a href="http://maps.google.es/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Avenida+de+Santa+Marta,+36300+Baiona,+Pontevedra,+Galicia&amp;aq=&amp;sll=42.113664,-8.838042&amp;sspn=0.009216,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=Avenida+de+Santa+Marta,+36300+Baiona,+Pontevedra,+Galicia&amp;t=m&amp;ll=42.119554,-8.838329&amp;spn=0.022283,0.032187&amp;z=14&amp;iwloc=A" target="_blank">Avda. de Santa Marta 26, Urb. O Vidro, 36300 Baiona (Pontevedra)</a>
+                <br/> &copy; 2012-2013 Farmacia Baíña. Todos los derechos reservados.</small></p>
+            </footer>
+        </div>
+    </body>
+</html>

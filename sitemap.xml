@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://www.farmaciabaina.com/index.html</loc>
+		<lastmod>2013-01-19</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>http://www.farmaciabaina.com/atencion_farmaceutica.html</loc>
+		<lastmod>2013-01-19</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.farmaciabaina.com/laboratorio.html</loc>
+		<lastmod>2013-01-19</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.farmaciabaina.com/parafarmacia.html</loc>
+		<lastmod>2013-01-19</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>http://www.farmaciabaina.com/promociones.html</loc>
+		<lastmod>2013-01-19</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.75</priority>
+	</url>
+</urlset>
